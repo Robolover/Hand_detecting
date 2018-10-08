@@ -21,6 +21,7 @@ Mat* Cap::ReadCam() {
 // hsv : 0,28,115 ~ 16,122,253
 //		 0,59,33 ~ 50,173,255
 // ycbcr : 
+
 void Cap::HandDetect() {
 	scale = 1.8;
 	qt_flag = false;
