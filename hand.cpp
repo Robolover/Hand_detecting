@@ -1,6 +1,6 @@
 #include "hand.hpp"
 
-Mat* Cap::ReadCam() {
+Mat* Cap::ReadCam() {   
 	cap.read(origin);
 	assert(!origin.empty());
 
